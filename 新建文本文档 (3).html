@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="css/背景.css" rel="stylesheet" />
+		<link href="css/播放器.css" rel="stylesheet" />
+	
+		<style>
+		        div.sticky {
+		            position: -webkit-sticky;
+		            position: sticky;
+		            top: 0;
+		            padding: 5px;
+		            background-color: #C7DDEF;
+		            border: 2px solid #4CAF50;
+		        }
+		    </style> 
+	</head>
+这里添加了一个具有position:sticky;的元素,是根据用户的滚动位置定位.粘性元素在相对和固定之间切换,具体取决于滚动位置. 它开始时是相对定位,直到在视口中满足了给定的偏移位置 - 然后它粘住(sticky)到固定的位置(如position:fixed).
+<table style="width: 100%;">
+  <tr>
+     <td style="text-align: right; vertical-align: middle;">
+	<body>
+		<div class="sticky">小昭的旅行日志😀</div>
+		<table style="width: 100%;">
+		  <tr>
+		     <td style="text-align: center; vertical-align: middle;">
+		<body style="background-image:linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);">
+			
+//添加一个漂亮的背景色，取自https://webgradients.com/
+		
+		<div>
+			<style type="text/css">
+				background-attachment: fixed;
+				background: url(img/background.jpg);
+			</style>
+	//没用到，本来想用图片做一个固定背景
+		
+		  <li><a href="https://blog.csdn.net/weixin_45281843?spm=1000.2115.3001.5343">传送门：我的CSDN博客</a></li>
+		        <li><a href="https://user.qzone.qq.com/1178815523">我的QQ空间</a></li>
+		      </ul>
+		</div>
+		//俩超链接，一个到博客，一个到qq空间
+		<div>
+			<audio src="./周杰伦%20-%20超人不会飞.mp3" controls="controls"></audio>
+		</div>
+		
+//一个播放器小组件
+		
+		</div>
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="./img/朝圣的人.jpg">
+		      <div class="caption">
+		        <h3>拉卜楞寺的朝圣</h3>
+		        <p>拉卜楞寺，位于甘肃省甘南藏族自治州夏河县，藏语全称为：“噶丹夏珠达尔吉扎西益苏奇具琅”，意思为具喜讲修兴吉祥右旋寺。</p>
+		        <p><a href="朝圣的人.html" class="btn btn-primary" role="button">欣赏原图</a> <a href="https://baike.baidu.com/item/%E6%8B%89%E5%8D%9C%E6%A5%9E%E5%AF%BA/113379?fr=aladdin" class="btn btn-default" role="button">查看地点</a></p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	//通过缩略图组件扩展 Bootstrap 的 栅格系统，可以很容易地展示栅格样式的图像、视频、文本等内容。 添加一点点额外的标签，就可以把任何类型的 HTML 内容，例如标题、段落或按钮，加入缩略图组件内。 带俩按钮的缩略图。
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="./img/青海湖.jpg">
+		      <div class="caption">
+		        <h3>青海湖畔</h3>
+		        <p>青海湖是我国青藏高原东北部的一个最大的内陆湖，独特的地理位置加上气候因素。青海湖成了一个著名的旅游景点，青海湖最具有特点的就是气候日照特别的强烈，海天相接的青海湖，更加证明了它的面积是非常广阔的</p>
+		        <p><a href="青海湖畔.html" class="btn btn-primary" role="button">欣赏原图</a> <a href="https://baike.baidu.com/item/%E9%9D%92%E6%B5%B7%E6%B9%96/113605" class="btn btn-default" role="button">查看地点</a></p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="./img/郎木寺.jpg">
+		      <div class="caption">
+		        <h3>郎木寺庙</h3>
+		        <p>郎木寺镇是甘肃甘南藏族自治州碌曲县和四川阿坝藏族羌族自治州若尔盖县共同下辖的一个小镇，白龙江穿镇而过。其中江北的赛赤寺属于甘肃碌曲县，又叫“达仓郎木赛赤寺”，江南是格尔底寺，属于四川若尔盖县，又叫“达仓郎木格尔底寺”，两座寺庙均属藏传佛教格鲁派寺庙。</p>
+		        <p><a href="郎木寺.html" class="btn btn-primary" role="Button">欣赏原图</a> <a href="https://baike.baidu.com/item/%E9%83%8E%E6%9C%A8%E5%AF%BA" class="btn btn-default" role="button">查看地点</a></p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="./img/月牙泉.jpg">
+		      <div class="caption">
+		        <h3>沙漠明珠：月牙泉</h3>
+		        <p>月牙泉是敦煌诸多自然景观中的佼佼者，古往今来以“沙漠奇观”著称于世，被誉为“塞外风光之一绝”。月牙泉、莫高窟九层楼和莫高窟艺术景观融为一体，是敦煌城南一脉相连的“三大奇迹”，成为中国乃至世界人民向往的旅游胜地。</p>
+		        <p><a href="月牙泉.html" class="btn btn-primary" role="Button">欣赏原图</a> <a href="https://baike.baidu.com/item/%E6%9C%88%E7%89%99%E6%B3%89/4562" class="btn btn-default" role="button">查看地点</a></p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="./img/日照丹霞.jpg">
+		      <div class="caption">
+		        <h3>日照丹霞</h3>
+		        <p>张掖丹霞地貌群，俗称“张掖丹霞”，由“七彩丹霞”和“冰沟丹霞”组成。如用文字来表达，仅有两个字震撼。其气势之磅礴、场面之壮观、造型之奇特、色彩之斑斓，大自然的鬼斧神工，令人惊叹。她不仅具有一般丹霞的奇、险，而且更美的在于色。在方圆10多平方公里的范围内，随处可见有红、黄、橙、绿、白、青灰、灰黑、灰白等多种鲜艳的色彩，把无数沟 、山丘装点得绚丽多姿。张掖丹霞地貌以她那层理交错的线条、色彩斑斓的色调、灿烂夺目的壮美画图，形成一个彩色的童话世界。</p>
+		        <p><a href="日照丹霞.html" class="btn btn-primary" role="Button">欣赏原图</a> <a href="https://baike.baidu.com/item/%E5%BC%A0%E6%8E%96%E4%B8%B9%E9%9C%9E/6349616" class="btn btn-default" role="button">查看地点</a></p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<div class="row">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="./img/长安不夜城.jpg">
+		      <div class="caption">
+		        <h3>长安不夜城</h3>
+		        <p>大唐不夜城以盛唐文化为背景，以唐风元素为主线，建有大雁塔北广场、玄奘广场、贞观广场、创领新时代广场四大广场，西安音乐厅、陕西大剧院、西安美术馆、曲江太平洋电影城等四大文化场馆，大唐佛文化、大唐群英谱、贞观之治、武后行从、开元盛世等五大文化雕塑，是西安唐文化展示和体验的首选之地。</p>
+		        <p><a href="长安不夜城.html" class="btn btn-primary" role="Button">欣赏原图</a> <a href="https://baike.baidu.com/item/%E5%A4%A7%E5%94%90%E4%B8%8D%E5%A4%9C%E5%9F%8E" class="btn btn-default" role="button">查看地点</a></p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		</tr>
+		</table>
+		
+		<script type="text/javascript">
+		        	/* 鼠标点击爱心特效 */
+		            !function (e, t, a) {function r() {for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e].y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[e].y + "px;opacity:" + s[e].alpha + ";transform:scale(" + s[e].scale + "," + s[e].scale + ") rotate(45deg);background:" + s[e].color + ";z-index:99999");requestAnimationFrame(r)}function n() {var t = "function" == typeof e.onclick && e.onclick;e.onclick = function (e) {t && t(), o(e)}}function o(e) {var a = t.createElement("div");a.className = "heart", s.push({el: a,x: e.clientX - 5,y: e.clientY - 5,scale: 1,alpha: 1,color: c()}), t.body.appendChild(a)}function i(e) {var a = t.createElement("style");a.type = "text/css";try {a.appendChild(t.createTextNode(e))} catch (t) {a.styleSheet.cssText = e}t.getElementsByTagName("head")[0].appendChild(a)}function c() {return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"}var s = [];e.requestAnimationFrame = e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {setTimeout(e, 1e3 / 60)}, i(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), n(), r()}(window, document);
+		</script>
+	</body>
+
+</html>
